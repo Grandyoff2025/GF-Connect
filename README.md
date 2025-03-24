@@ -1,1 +1,114 @@
 # GF-Connect
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Digitalisation des États Civils – Mairie de Grand Yoff</title>
+  <!-- Bootstrap CSS via CDN -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body { padding-top: 70px; }
+    footer { background-color: #343a40; color: #fff; }
+  </style>
+</head>
+<body>
+  <!-- Barre de navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+    <a class="navbar-brand" href="index.html">Mairie Grand Yoff</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" 
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Basculer la navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="#accueil">Accueil</a></li>
+        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Contenu principal -->
+  <main class="container">
+    <!-- Section Accueil -->
+    <section id="accueil" class="mb-5">
+      <h1>Bienvenue sur le portail des États Civils</h1>
+      <p>
+        Ce site a pour objectif de moderniser et sécuriser vos démarches administratives pour les actes d’état civil (naissance, mariage, décès). 
+        Conçu pour être accessible, rapide et facile à utiliser, il vous guide pas à pas dans la digitalisation de vos démarches.
+      </p>
+    </section>
+
+    <!-- Section Services -->
+    <section id="services" class="mb-5">
+      <h2>Nos Services</h2>
+      <div class="card-deck">
+        <!-- Service Naissance -->
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Déclaration de Naissance</h5>
+            <p class="card-text">Remplissez le formulaire pour déclarer une naissance de manière rapide et sécurisée.</p>
+            <a href="naissance.html" class="btn btn-primary">Accéder au formulaire</a>
+          </div>
+        </div>
+        <!-- Service Mariage -->
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Déclaration de Mariage</h5>
+            <p class="card-text">Procédez à la demande de mariage via un processus simplifié et protégé.</p>
+            <a href="mariage.html" class="btn btn-primary">Accéder au formulaire</a>
+          </div>
+        </div>
+        <!-- Service Décès -->
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Déclaration de Décès</h5>
+            <p class="card-text">Enregistrez le décès d’un proche en toute sécurité, 24/7, via notre portail.</p>
+            <a href="deces.html" class="btn btn-primary">Accéder au formulaire</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="mb-5">
+      <h2>Contact</h2>
+      <p>Pour toute question ou demande d'assistance, merci de nous contacter :</p>
+      <form id="contactForm">
+        <div class="form-group">
+          <label for="contactNom">Nom</label>
+          <input type="text" class="form-control" id="contactNom" placeholder="Votre nom" required>
+        </div>
+        <div class="form-group">
+          <label for="contactEmail">Adresse Email</label>
+          <input type="email" class="form-control" id="contactEmail" placeholder="Votre email" required>
+        </div>
+        <div class="form-group">
+          <label for="contactMessage">Message</label>
+          <textarea class="form-control" id="contactMessage" rows="3" placeholder="Votre message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Envoyer</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Pied de page -->
+  <footer class="py-3 text-center">
+    <p>&copy; 2025 Mairie de Grand Yoff. Tous droits réservés.</p>
+  </footer>
+
+  <!-- Inclusion des scripts Bootstrap et JS personnalisé -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script>
+    // Exemple de gestion de soumission du formulaire contact
+    document.getElementById("contactForm").addEventListener("submit", function(event) {
+      event.preventDefault();
+      alert("Votre message a bien été envoyé. Nous vous répondrons dans les plus brefs délais.");
+      this.reset();
+    });
+  </script>
+</body>
+</html>
