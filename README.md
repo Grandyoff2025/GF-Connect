@@ -96,10 +96,7 @@
 
   <!-- Pied de page -->
   <footer class="py-3 text-center">
-    <p>&copy; 2025 Mairie de Grand Yoff. Tous droits réservés.</p>
-  </footer> 
-
-  <!-- Inclusion des scripts Bootstrap et JS personnalisé -->
+  <!-- Inclusion des scripts Bootstrap et JS personnalisé -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -177,9 +174,6 @@
 
   <!-- Pied de page -->
   <footer class="bg-dark text-white text-center py-3">
-    <p>&copy; 2025 Mairie de Grand Yoff. Tous droits réservés.</p>
-  </footer> 
-
   <!-- Scripts Bootstrap -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
@@ -254,10 +248,8 @@
 
   <!-- Pied de page -->
   <footer class="bg-dark text-white text-center py-3">
-    <p>&copy; 2025 Mairie de Grand Yoff. Tous droits réservés.</p>
-  </footer> 
 
-  <!-- Scripts Bootstrap -->
+<!-- Scripts Bootstrap -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -327,10 +319,7 @@
 
   <!-- Pied de page -->
   <footer class="bg-dark text-white text-center py-3">
-    <p>&copy; 2025 Mairie de Grand Yoff. Tous droits réservés.</p>
-  </footer> 
-
-  <!-- Scripts Bootstrap -->
+  <!-- Scripts Bootstrap -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
