@@ -1,4 +1,4 @@
-WWW.GF-CONNECT.com 
+                GF-CONNECT
 
 <!DOCTYPE html>
 <html lang="fr">
