@@ -270,4 +270,78 @@
     });
   </script>
 </body>
+</html> 
+
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Déclaration de Décès – Mairie de Grand Yoff</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body { padding-top: 70px; }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+    <a class="navbar-brand" href="index.html">Mairie Grand Yoff</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Basculer la navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html#accueil">Accueil</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html#services">Services</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Contenu principal -->
+  <main class="container">
+    <h1 class="mt-4">Déclaration de Décès</h1>
+    <p>Veuillez remplir le formulaire ci-dessous pour déclarer un décès.</p>
+    <form id="decesForm">
+      <div class="form-group">
+        <label for="nomDefunt">Nom et Prénom du défunt</label>
+        <input type="text" class="form-control" id="nomDefunt" placeholder="Nom et prénom" required>
+      </div>
+      <div class="form-group">
+        <label for="dateDeces">Date du décès</label>
+        <input type="date" class="form-control" id="dateDeces" required>
+      </div>
+      <div class="form-group">
+        <label for="lieuDeces">Lieu du décès</label>
+        <input type="text" class="form-control" id="lieuDeces" placeholder="Ville, commune" required>
+      </div>
+      <div class="form-group">
+        <label for="documentDeces">Joindre un document (scan, PDF)</label>
+        <input type="file" class="form-control-file" id="documentDeces">
+      </div>
+      <button type="submit" class="btn btn-primary">Envoyer la déclaration</button>
+    </form>
+  </main>
+
+  <!-- Pied de page -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2025 Mairie de Grand Yoff. Tous droits réservés.</p>
+  </footer>
+
+  <!-- Scripts Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script>
+    // Gestion de la soumission du formulaire de décès
+    document.getElementById("decesForm").addEventListener("submit", function(event) {
+      event.preventDefault();
+      alert("Votre déclaration de décès a été envoyée avec succès.");
+      this.reset();
+    });
+  </script>
+</body>
 </html>
